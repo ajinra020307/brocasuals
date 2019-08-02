@@ -1,0 +1,222 @@
+/*global*/
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+/*header*/
+
+header{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	background-color: #292833;
+	color: white;
+	padding: 15px 0;
+}
+.web_title{
+	padding-left: 100px;
+	font-size: 35px;
+}
+#primarybtn{
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	border: none;
+	background-color: tomato;
+	font-size: 15px;
+	color: white;
+}
+.top_navigation{
+	padding-right: 100px;
+	justify-self:end;
+
+	margin:auto 0;
+}
+.top_navigation a{
+	padding-left: 60px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+/*showcase*/
+.showcase{
+	min-height: 600px;
+	background-image: url(../img/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: center;
+	color: yellow;
+}
+#showcase_welcome{
+   font-size: 45px;
+   font-weight: bolder;
+}
+#showcase_phno{
+   font-size: 30px;
+   color: white;
+}
+.showcase_content p{
+	font-size: 35px;
+	
+	margin: 20px 0;
+}
+.showcase_content{
+	padding-right: 100px;
+}
+.showcase_content button{
+	width: 200px;
+	height: 40px;
+	font-size: 17px;
+	background-color: tomato;
+	border-radius: 20px;
+	color: white;
+	border: none;
+	margin-top: 10px;
+}
+/*content*/
+.top_collections div{
+	width: 80%;
+	margin: 10px auto;
+	display: flex;
+}
+.top_collections img{
+	height: 500px;
+}
+.collections_shirt_content,.collections_pant_content,.collections_tshirt_content{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.top_collections span{
+	font-size: 4.5vw;
+}
+.top_collections p{
+	font-size: 2vw;
+	margin-top: 20px;
+	line-height: 1.6;
+	margin: 10px;
+}
+.collections_button{
+	width: 200px;
+	height: 40px;
+	color: white;
+	border: none;
+	background-color: tomato;
+	border-radius: 20px;
+	font-size: 18px;
+}
+/*footer*/
+footer{
+	min-height: 100px;
+	display: flex;
+	flex-direction: column;
+	font-size: 18px;
+	align-items: center;
+	justify-content: center;
+	background-color: #292833;
+	margin-top: 20px;
+	color: darkgrey;
+}
+footer span{
+	font-size: 13px;
+}
+/*media rules*/
+
+@media screen and (max-width: 800px){
+	
+	.web_title{
+      padding-left: 20px;
+      font-size: 30px;
+      
+	}
+	.top_navigation{
+		padding-right: 20px;
+	}
+	.showcase{
+		justify-content: center;
+		min-height: 500px;
+	}
+	.showcase_content{
+		padding: 0;
+	}
+	.top_collections p{
+		font-size: 3vw;
+	}
+	.top_collections img{
+		height: 350px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#collec{
+		display: none;
+	}
+	.web_title{
+      padding-left: 5px;
+      font-size: 22px;
+      
+	}
+	.top_navigation{
+		padding-right: 10px;
+	}
+	header{
+	grid-template-columns: 1fr 1fr;
+
+	}
+	#primarybtn{
+	width: 80px;
+	height: 25px;
+	font-size: 12px;
+   }
+   .showcase{
+	min-height: 400px;
+	background-image: url(../img/mobilecover.jpg);
+   }
+	#showcase_welcome{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+   }
+   #showcase_phno{
+   font-size: 30px;
+   color: white;
+   background-color: rgba(0,0,0,0.3);
+   }
+   .showcase_content p{
+	font-size: 25px;
+	background-color: rgba(0,0,0,0.3);
+	
+   }
+   .top_collections div{
+	width: 100%;
+  }
+  .top_collections p{
+		font-size: 17px;
+	}
+	.top_collections img{
+		height: 350px;
+	}
+	.top_collections span{
+		font-size: 28px;
+	}
+	.collections_shirt{
+		flex-direction: column-reverse;
+	}
+	.collections_pant{
+		flex-direction: column;
+	}
+	.collections_tshirt{
+		flex-direction: column-reverse;
+	}
+
+}
