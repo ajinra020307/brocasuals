@@ -36,6 +36,10 @@ picture span{
 	height: 80vh;
 	text-align: center;
 }
+.web_title a{
+	color: white;
+	text-decoration: none;
+}
 @media screen and (max-width: 800px){
 	picture img{
 		height: 30vw;
