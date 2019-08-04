@@ -46,7 +46,7 @@ header{
 /*showcase*/
 .showcase{
 	min-height: 600px;
-	background-image: url(../img/cover.jpg);
+	background-image: url(../img/c2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -60,8 +60,9 @@ header{
    font-weight: bolder;
 }
 #showcase_phno{
-   font-size: 30px;
+   font-size: 40px;
    color: white;
+
 }
 .showcase_content p{
 	font-size: 35px;
@@ -75,7 +76,7 @@ header{
 	width: 200px;
 	height: 40px;
 	font-size: 17px;
-	background-color: tomato;
+	background-color: red;
 	border-radius: 20px;
 	color: white;
 	border: none;
@@ -220,3 +221,6 @@ footer span{
 	}
 
 }
+
+
+
