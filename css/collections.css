@@ -1,0 +1,48 @@
+picture img{
+	height: 25vw;
+	width: auto;
+	margin: 10px;
+	
+	border: 3px solid #f2f2f2;
+}
+
+picture{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    margin: auto;
+    text-align: center;
+}
+picture span{
+	font-size: 22px;
+}
+.buybutton, .buy button{
+	width: 130px;
+	height: 35px;
+	font-size: 18px;
+	border: none;
+	border-radius: 20px;
+	background-color: red;
+	color: white;
+}
+.buy{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 8vw;
+	font-family: sans-serif;
+	display: none;
+	height: 80vh;
+	text-align: center;
+}
+@media screen and (max-width: 800px){
+	picture img{
+		height: 30vw;
+	}
+}
+@media screen and (max-width: 500px){
+	picture img{
+		height: 100vw;
+	}
+}

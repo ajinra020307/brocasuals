@@ -4,13 +4,23 @@ buttons.forEach((v)=>{
 })
 
 function displaycontact(){
-	document.querySelector('.showcase').style.display="none"
+	try{
+		document.querySelector('.showcase').style.display="none"
 	document.querySelector('.top_collections').style.display="none"
 	document.querySelector('.contact').style.display="flex"
+}catch(e){
+
+}
+	
 }
 
 function removecontact(){
-	document.querySelector('.showcase').style.display="flex"
+	try{
+		document.querySelector('.showcase').style.display="flex"
 	document.querySelector('.top_collections').style.display="block"
 	document.querySelector('.contact').style.display="none"
+	}catch(e){
+		
+	}
+	
 }
