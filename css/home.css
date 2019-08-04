@@ -115,7 +115,7 @@ header{
 	height: 40px;
 	color: white;
 	border: none;
-	background-color: tomato;
+	background-color: red;
 	border-radius: 20px;
 	font-size: 18px;
 }
@@ -209,10 +209,10 @@ footer span{
    }
    .showcase{
 	min-height: 93vh;
-	background-image: url(../img/mobilecover.jpg);
+	background-image: url(../img/b.jpg);
    }
 	#showcase_welcome{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     background-color: rgba(0,0,0,0.3);
    }
