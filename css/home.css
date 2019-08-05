@@ -75,6 +75,7 @@
 }
 
 
+
 @media screen and (max-width: 800px){
 	
 	.showcase{
@@ -101,16 +102,16 @@
 	#showcase_welcome{
     font-size: 40px;
     color: white;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.1);
    }
    #showcase_phno{
    font-size: 30px;
    color: white;
-   background-color: rgba(0,0,0,0.3);
+   background-color: rgba(0,0,0,0.1);
    }
    .showcase_content p{
 	font-size: 25px;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.1);
 	
    }
    .top_collections div{

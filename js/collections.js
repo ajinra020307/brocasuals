@@ -16,3 +16,10 @@ function closebuy(){
 	
 	document.querySelector('.buy').style.display="none"
 }
+function generateid(){
+	let images=document.querySelectorAll('.id')
+	images.forEach((v,i)=>{
+		v.innerText+=i+1
+	})
+}
+generateid()

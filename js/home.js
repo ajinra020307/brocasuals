@@ -1,6 +1,8 @@
 const buttons=document.querySelectorAll('button')
 buttons.forEach((v)=>{
-	v.classList.add("animated","pulse","slow","infinite")
+	v.addEventListener('click', function(e) {
+	   v.style.backgroundColor="green"
+	});
 })
 
 function displaycontact(){
