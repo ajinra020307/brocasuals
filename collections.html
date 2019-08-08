@@ -252,6 +252,25 @@
 		<p>Copyright &copy; Bro casuals 2019</p>
 		<span>Designed and developed by ii</span>
 	</footer>
-	<script src="js/Collections.js"></script>
+	<script >
+		
+function displaybuy(){
+	document.querySelector('.content').style.display="none";
+	
+	document.querySelector('.buy').style.display="flex"
+}
+function closebuy(){
+	document.querySelector('.content').style.display="block";
+	
+	document.querySelector('.buy').style.display="none"
+}
+function generateid(){
+	let images=document.querySelectorAll('.id')
+	images.forEach((v,i)=>{
+		v.innerText+=i+1
+	})
+}
+generateid()
+	</script>
 </body>
 </html>

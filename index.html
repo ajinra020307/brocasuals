@@ -86,6 +86,14 @@
 
 
 	
-	<script src="js/home.js"></script>
+	<script>
+		const buttons=document.querySelectorAll('button')
+         buttons.forEach((v)=>{
+        	v.addEventListener('click', function(e) {
+	        v.style.backgroundColor="green"
+	     });
+         })
+
+	</script>
 </body>
 </html>
