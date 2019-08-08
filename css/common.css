@@ -67,30 +67,66 @@ footer span{
 }
 
 .contact{
-	display: none;
+	display:none;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 80vh;
+	padding: 10vh 0;
 	text-align: center;
 	font-family: sans-serif;
+	background-color: #f2f2f2;
+	box-shadow: inset 2px 2px 2px grey,2px 2px 2px grey;
+	margin: auto;
+	width: 60%;
+	margin-top: 20px;
    
 }
-.contact span{
-	font-size: 8vw;
-}
+
 .contact button{
-	width: 150px;
+	width: 200px;
 	height: 35px;
 	background: tomato;
 	font-size: 20px;
 	color: white;
 	border: none;
 	border-radius: 20px;
+	margin-top: 20px;
+}
+.email span{
+	font-size: 20px;
+}
+.contact span{
+	font-size: 25px;
+	font-weight: lighter;
+	font-family: monospace;
+	margin-bottom: 30px;
+}
+.contact textarea{
+	width: 300px;
+	height: 100px;
+	resize: vertical;
+	border-radius: 10px;
+	
+}
+.contact form input{
+   width: 300px;
+   height: 35px;
+   border-radius: 20px;
+   margin-bottom: 20px;
+}
+.contact form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+
 }
 /*media rules*/
 @media screen and (max-width: 800px){
-	
+	.contact{
+		width: 80%;
+	}
 	.web_title{
       padding-left: 20px;
       font-size: 30px;
@@ -121,5 +157,8 @@ footer span{
 	width: 90px;
 	height: 30px;
 	font-size: 13px;
+   }
+   .contact{
+   	width: 98%;
    }
    }
