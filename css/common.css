@@ -67,7 +67,7 @@ footer span{
 }
 
 .contact{
-	display:none;
+	display:flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
@@ -140,6 +140,7 @@ footer span{
 @media screen and (max-width: 550px){
 	#collec{
 		display: none;
+		padding: 20vh 0;
 	}
 	.web_title{
       padding-left: 10px;
