@@ -42,7 +42,7 @@ header{
 
 	margin:auto 0;
 }
-.top_navigation a{
+.top_navigation a:nth-child(1){
 	padding-right: 40px;
 	text-decoration: none;
 	font-size: 20px;
