@@ -96,7 +96,7 @@
 @media screen and (max-width: 550px){
 	
    .showcase{
-	min-height: 93vh;
+	height: 93vh;
 	background-image: url(../img/b.jpg);
    }
 	#showcase_welcome{
