@@ -43,6 +43,7 @@ picture span{
 @media screen and (max-width: 800px){
 	picture img{
 		height: 30vw;
+		min-width: 80vw;
 	}
 }
 @media screen and (max-width: 500px){
