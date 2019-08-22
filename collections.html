@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
 	<meta charset=utf-8>
 	<meta name=description content="">
 	<meta name=viewport content="width=device-width, initial-scale=1">
-	<title>Document</title>
+	<title>Collections</title>
 	<link href="https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/collections.css">
+	
+	<style>
+		.container{
+			min-height: 80vh;
+			width: 90%;
+			margin: auto;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			text-align: center;
+
+		}
+		.container img{
+			height: 400px;
+			margin-top: 30px;
+		}
+		.container span{
+			font-size: 30px;
+
+		}
+		.web_title a{
+			color: white;
+			text-decoration: none;
+		}
+		.container a{
+			text-decoration: none;
+			color:black;
+		}
+
+		@media (max-width:900px){
+			.container{
+				width: 90%;
+			}
+			.container img{
+				height: 300px;
+
+			}
+		}
+		@media (max-width:550px){
+			.container img{
+				width: 90vw;
+				height: auto;
+			}
+			.container{
+				width: 100%;
+				flex-direction: column;
+			}
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -16,415 +63,39 @@
 			<a href="index.html"><span>Bro casuals</span></a>
 		</div>
 		<nav class="top_navigation">
-			<a  id="collec">Collections</a>
+			<a href="collections.html" id="collec">Collections</a>
 			<a href="contact.html"><button id="primarybtn" onclick="displaycontact()">Contact</button></a>
 		</nav>
 	</header>
-	<section class="content">
+    <section class="content">
+    	<div class="container">
+    	    	<div class="shirt">
+    	    	<a href="shirts.html">	<img src=""><br></a>
+    	    		<a href="shirts.html"><span>Shirts</span></a>
+    	    	</div>
+    	        <div class="pant">
+    	        	<a href="pants.html">	<img src=""><br></a>
+    	    		<a href="pants.html"><span>Pants</span></a>
+    	        </div>
+    	        <div class="tshirt">
+    	        	<a href="tshirts.html">	<img src=""><br></a>
+    	    		<a href="tshirts.html"><span>T-shirts</span></a>
+    	        </div>	
+    	</div>
 
-		<picture>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-			<div class="img">
-				<img src="" alt=""><br>
-				<span>Rate</span><br>
-				<span class="id">Id:</span><br>
-				<button class="buybutton" onclick="displaybuy()">Buy now</button>
-			</div>
-
-
-
-		</picture>
-	</section>
-	<section class="buy">
-		<span>Please contact this number and say the product id</span><br>
-		<p>9999999999</p><br>
-		<button onclick="closebuy()">Close</button>
-	</section>
-	
+    </section>
 	<footer>
 		<p>Copyright &copy; Bro casuals 2019</p>
 		<span>Designed and developed by ii</span>
 	</footer>
-	<script >
-		
-function displaybuy(){
-	document.querySelector('.content').style.display="none";
-	
-	document.querySelector('.buy').style.display="flex"
-}
-function closebuy(){
-	document.querySelector('.content').style.display="block";
-	
-	document.querySelector('.buy').style.display="none"
-}
-function showimg(){
-  let images=document.querySelectorAll('.img img')
-  console.log(images);
-  images.forEach((v,i)=>{
-  	try{
-  		v.src=`img/collections/${i}.jpg`
-  	}catch(err){
-  		return false;
-  	}
-  	
-  })
 
-}
-showimg()
+	<script>
+		let shirtimg=document.querySelector('.shirt img');
+		shirtimg.src="img/collections/shirts/0.jpg"
+		let pantimg=document.querySelector('.pant img')
+		pantimg.src="img/collections/pants/0.jpg"
+		let tshirtimg=document.querySelector('.tshirt img')
+		tshirtimg.src="img/collections/tshirts/0.jpg"
 	</script>
-
 </body>
 </html>
