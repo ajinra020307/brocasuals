@@ -48,6 +48,7 @@ picture span{
 }
 @media screen and (max-width: 500px){
 	picture img{
-		height: 100vw;
+		height: auto;
+		width: 70vw;
 	}
 }
