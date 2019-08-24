@@ -97,21 +97,21 @@
 	
    .showcase{
 	height: 93vh;
-	background-image: url(../img/b.jpg);
+	background-image: url(../img/bb.jpg);
    }
 	#showcase_welcome{
     font-size: 40px;
-    color: rgb(3, 49, 252);
+    color: white;
    }
    #showcase_phno{
    font-size: 30px;
    color: white;
-   background-color: rgba(0,0,0,0.1);
+  
    }
    .showcase_content p{
    	font-family: "Pacifico";
 	font-size: 25px;
-	background-color: rgba(0,0,0,0.1);
+	
 	
    }
    .top_collections div{
