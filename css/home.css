@@ -106,7 +106,11 @@
    #showcase_phno{
    font-size: 30px;
    color: white;
-  
+   font-family: "Pacifico";
+   color:red;
+   }
+   .showcase_content{
+   	margin-top: 100px;
    }
    .showcase_content p{
    	font-family: "Pacifico";
