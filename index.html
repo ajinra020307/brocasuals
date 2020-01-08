@@ -82,7 +82,21 @@
 	        v.style.backgroundColor="green"
 	     });
          })
-
+		
+		fetch('http://localhost:100/auth/verifytoken?accesstoken=eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTE1YmJjODY3NGM5ODFkZjE2NWE1YzIiLCJ0aWQiOiIwLjg2MDU5NTQxMjE3MjQzMjI5aXFjNXd4azU1N3VkZzgiLCJpYXQiOjE1Nzg0ODI2OTh9.tsfbiLB7yKBJwrjejQrMQ1AQoH0igIF_4eJdXrduOMI8_WInmrVYsyvmp6H-5Ntu')
+		.then(res=>{
+			return res.json()
+		})
+		.then(data=>{
+			console.log(data)
+		})
+		
 	</script>
+	
+	
+	
+	
+	
+	
 </body>
 </html>
